@@ -1,0 +1,651 @@
+
+/* 1. SAYFA */
+:root {
+   --align: 120px;
+   --title: 140px;
+}
+ 
+.align {
+   padding-left: var(--align);
+   padding-right: var(--align);
+  }
+ .container1 {
+  background: url(https://assets.nflxext.com/ffe/siteui/vlv3/b85863b0-0609-4dba-8fe8-d0370b25b9ee/4e53ded1-9b47-456f-84a8-ed09fa0dcc88/TR-tr-20230731-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: 100%;
+  height: 700px;
+  width: 100%;
+  box-shadow: inset 2px 2px 500px 800px rgba(20, 20, 20, 0.501);
+ }
+
+ .title {
+   padding-left: var(--title);
+   padding-right: var(--title);
+ }
+ .container3 {
+   padding-left: var(--container);
+   padding-right: var(--container);
+  }
+ul {
+ list-style: none;
+}
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ a {
+  text-decoration: none;
+  color: #fff;
+ }
+body {
+ margin: 0;
+ background-color: #212529;
+ color: white;
+}
+.bg-color {
+ background-color: #414141;
+}
+.text-white {
+ color: rgb(219, 212, 212)6c6;
+}
+header {
+ position: absolute;
+ top: 0;
+ width: 100%;
+ height: 40px;
+ z-index: 2;
+}
+.netflix_logo {
+ width: 120px;
+ height: 50px;
+ object-fit: cover;
+}
+
+.aç {
+   white-space: nowrap;
+}
+
+.main-text {
+ width: 950px;
+}
+
+.main-text h1 {
+ font-size: 48px;
+ margin-top: -200px;
+}
+
+.main-text p {
+ font-size: 24px;
+}
+
+.main-text h3 {
+ font-size: 20px;
+}
+
+.e-mail {
+ width: 600px;
+}
+
+.container4 h2 {
+ font-size: 48px;
+}
+
+.container4 p {
+ font-size: 24px;
+}
+
+.text-header {
+ height: 100%;
+}
+
+.uzunluk {
+ height: 70%;
+}
+
+.phc::placeholder {
+ color: white;
+}
+
+.tv {
+ width: 600px;
+}
+.video {
+ position: relative;
+ bottom: 360px;
+ z-index: 2;
+}
+
+
+.video2 {  
+ position: relative;
+ right: 400px;
+ bottom: 60px;
+ width: 310px;
+ z-index: 1;
+}
+.fotomobil { 
+   width: 600px;
+   margin: auto;
+}
+.mobiler { 
+ width: 500px;
+}
+.Çocuk .fotoçocuk {
+ width: 500px;
+}
+.Çocuk h2 {
+ font-size: 40px;
+}
+.Çocuk p {
+ font-size: 24px;
+}
+.bg-gray {
+ background-color: #383838;
+}
+
+.accordion-button:focus {
+   background: #383838;
+}
+
+.accordion-button:hover {
+   background: #4d4d4d;
+}
+
+footer div .footer-list li {
+ text-decoration: underline;
+ color: #FFFFFFB3;
+ display: flex;
+}
+
+footer div .footer-list a {
+ color: #FFFFFFB3;
+ font-size: 14px;
+ padding-top: 10px;
+}
+
+.netflix_türky {
+ color: #FFFFFFB3;
+}
+
+.container3 .row h2 {
+ font-size: 50px;
+}
+
+.container3 .row p {
+ font-size: 26px;
+}
+.avantaj {
+   width: 450px;
+
+}
+.avantaj-h2 {
+ font-size: 48px;
+}
+
+.avantaj-p {
+ font-size: 16px;
+}
+.language{
+   text-decoration: none;
+   list-style: none;
+}
+
+@media screen and (max-width: 1250px) {
+ :root {
+    --align: 20px;
+    --title: 20px;
+ }
+
+ .tv {
+    width: 400px;
+ }
+
+ .video {
+    bottom: 245px;
+    width: 400px;
+ }
+
+ .mobiler {
+    width: 350px;
+ }
+
+ .video2 {
+    right: 280px;
+    bottom: 50px;
+    width: 220px;
+ }
+}
+
+@media screen and (max-width: 992px) {
+ .main-text {
+    width: 750px;
+ }
+
+ .tv {
+    width: 450px;
+ }
+
+ .video {
+    bottom: 260px;
+    width: 330px;
+ }
+
+ .container4 h2 {
+    font-size: 40px;
+ }
+
+ .container4 p {
+    font-size: 20px;
+ }
+
+ .mobiler {
+    width: 350px;
+ }
+
+ .video2 {
+    right: 280px;
+    bottom: 50px;
+    width: 220px;
+ }
+
+ .Çocuk .fotoçocuk {
+    width: 400px;
+ }
+}
+
+@media screen and (max-width: 768px) {
+ .main-text {
+    width: 550px;
+ }
+
+ .video {
+    left: 30px;
+ }
+
+ .mobiler {
+    width: 400px;
+ }
+
+ .video2 {
+    right: 330px;
+    bottom: 54px;
+    width: 250px;
+ }
+
+ .Çocuk .fotoçocuk {
+    width: 350px;
+ }
+}
+
+@media screen and (max-width: 600px) {
+ :root {
+    --title: 0px;
+ }
+
+ .main-text {
+    width: 300px;
+ }
+
+ .main-text h1 {
+    font-size: 36px;
+ }
+
+ .main-text p {
+    font-size: 18px;
+ }
+
+ .main-text h3 {
+    font-size: 14px;
+ }
+
+ .Türkçe {
+    display: none;
+ }
+ .tv {
+    width: 300px;
+ }
+
+ .video {
+    bottom: 180px;
+    width: 250px;
+    left: 12px;
+ }
+
+ .container3 .row h2 {
+    font-size: 30px;
+ }
+
+ .Çocuk h2 {
+    font-size: 34px;
+ }
+
+ .Çocuk p {
+    font-size: 20px;
+ }
+
+ .container3 .row p {
+    font-size: 16px;
+ }
+
+ .container4 h2 {
+    font-size: 32px;
+ }
+
+ .container4 p {
+    font-size: 16px;
+ }
+
+ .container4 .text-size {
+    width: 75%;
+ }
+
+ .mobiler {
+    width: 250px;
+ }
+
+ .video2 {
+    right: 250px;
+    bottom: 35px;
+    width: 150px;
+ }
+
+ .fotomobil {
+    width: 400px;
+ }
+
+ .avantaj {
+    width: 400px;
+ }
+
+ .Çocuk .fotoçocuk {
+    width: 270px;
+ }
+
+ .avantaj-h2 {
+    font-size: 30px;
+ }
+
+ .avantaj-p {
+    font-size: 16px;
+ }
+}
+
+@media screen and (max-width: 422px) {
+ .main-text h1 {
+    font-size: 28px;
+ }
+ .oturum {
+    height: 30px;
+    text-align: center;
+    padding: 0 5px;
+    margin: 0;
+ }
+
+ .main-text p {
+    font-size: 16px;
+ }
+
+ .main-text h3 {
+    font-size: 12px;
+ }
+
+ .tv {
+    width: 300px;
+ }
+
+ .video {
+    bottom: 180px;
+    width: 250px;
+    left: 12px;
+ }
+
+ .container3 .row h2 {
+    font-size: 30px;
+ }
+
+ .Çocuk h2 {
+    font-size: 28px;
+ }
+
+ .Çocuk p {
+    font-size: 20px;
+ }
+
+ .container3 .row p {
+    font-size: 16px;
+ }
+
+ .container4 h2 {
+    font-size: 32px;
+ }
+
+ .container4 p {
+    font-size: 16px;
+ }
+
+ .container4 .text-size {
+    width: 75%;
+ }
+
+ .mobiler {
+    width: 200px;
+ }
+
+ .video2 {
+    right: 210px;
+    bottom: 30px;
+    width: 120px;
+ }
+
+ 
+
+ .Çocuk .fotoçocuk {
+    width: 200px;
+ }
+
+
+ .fotomobil {
+    width: 300px;
+ }
+
+ .avantaj {
+    width: 500px;
+ }
+
+ .avantaj-h2 {
+    font-size: 30px;
+ }
+
+ .avantaj-p {
+    font-size: 16px;
+ }
+}
+.back {
+ width: 100%;
+ height: 99vh;
+}
+
+
+
+
+
+
+
+/* 2. Sayfa Netflix Tasarım. */
+.netflix_logo2 {
+ width: 80px;
+ height: 30px;
+ object-fit: cover;
+}
+
+.home-demo .item {
+ background: transparent;
+}
+
+.home-demo h2 {
+ color: #FFF;
+ text-align: center;
+ padding: 5rem 0;
+ margin: 0;
+ font-style: italic;
+ font-weight: 300;
+}
+
+.owl-prev span {
+ display: inline-block;
+ top: -8px;
+ left: 3px;
+ position: absolute;
+ color: white;
+}
+
+.owl-next span {
+ display: inline-block;
+ top: -8px;
+ right: 3px;
+ position: absolute;
+}
+
+.owl-prev,
+.owl-next {
+ display: flex;
+ position: absolute;
+ transform: scale(4) !important;
+ background: #22222230 !important;
+ width: 12px;
+ height: 12px;
+}
+
+.owl-prev {
+ top: 120px;
+ left: -40px;
+}
+
+.owl-next {
+ top: 120px;
+ right: -40px;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+ background: #22222290 !important;
+}
+
+.Başlık {
+ font-size: 50px;
+ font-style: italic;
+ font-weight: 500;
+ margin: -30px 0 0 0;
+}
+
+.card {
+ position: relative;
+ border: 0;
+ border-radius: 10px !important;
+ overflow: hidden;
+}
+
+.card-hover {
+ Width: 100%;
+ height: 100%;
+ position: absolute;
+ transform: translate(0, 300px);
+ z-index: 20;
+ transition: all .3s;
+ background: #212529;
+}
+
+.card:hover .card-hover {
+ transform: translate(0, 0px);
+}
+
+.card-text {
+ position: relative;
+ width: 400px;
+ z-index: 1;
+ text-align: center;
+}
+
+.card-img-overlay {
+ margin-top: 8%;
+}
+
+.icon-oynat {
+ scale: 1.1;
+ transition: all .4s;
+}
+
+/* Footer2 kısmı. */
+footer div .footer-list li {
+ text-decoration: underline;
+ color: #FFFFFFB3;
+ display: flex;
+}
+
+footer div .footer-list a {
+ color: #FFFFFFB3;
+ font-size: 14px;
+ padding-top: 10px;
+}
+
+.hizmet:hover {
+ background-color: rgb(201, 208, 214) !important;
+ color: black !important;
+}
+
+@media screen and (max-width: 1447px) {
+ .nav-item {
+    font-size: 10px;
+ }
+}
+
+@media screen and (max-width: 1400px) {
+ .card-text {
+    font-size: 13px;
+ }
+}
+
+@media screen and (max-width: 991px) {
+ .card-text {
+    margin: -5px 0 0 0;
+    width: 600px;
+    height: 100px;
+    font-size: 13px;
+ }
+
+ .Başlık {
+    font-size: 40px;
+ }
+}
+
+@media screen and (max-width: 755px) {
+ .isim {
+    font-size: 13px !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    margin-top: -10px;
+ }
+}
+
+@media screen and (max-width: 678px) {
+ .card-text {
+    width: 480px;
+ }
+}
+
+@media screen and (max-width: 560px) {
+ .buton {
+    font-size: 12px !important;
+    .isim {
+      margin-top: -10px;
+    }
+ }
+}
+
+@media screen and (max-width: 475px) {
+ .card-text {
+    width: 350px;
+    font-size: 12px;
+    height: 100px;
+ }
+}
